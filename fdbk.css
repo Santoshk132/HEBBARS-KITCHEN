@@ -1,0 +1,106 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .banner{
+      background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('fdbk.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+    }
+  .navbar {
+      width: 85%;
+      margin: auto;
+      padding: 35px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .logo{
+    width: 220px;
+    cursor: pointer;
+    align-items: center;
+  }
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    text-transform: uppercase;
+  }
+  .navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: burlywood ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  .navbar ul li:hover::after{
+    width: 100%;
+  }
+  .content{
+    margin-left: 45%;
+  }
+  .content h1{
+    color:rgb(212, 158, 23) ;
+    font-family: sans serif;
+    padding-bottom: 20px;
+  }
+  form {
+     width: 27%;
+     margin: 0 auto;
+     bottom: 10px;
+  } 
+  
+  label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 09px;
+    font-size: 16px;
+    
+  }
+  input  {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 09px;
+    font-size: 16px;
+    background-color: rgb(230, 198, 119);
+    
+  }
+
+
+  textarea
+  {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 09px;
+    font-size: 16px;
+    background-color:rgb(230, 198, 119);
+  }
+  
+  label {
+    font-weight: bold;
+    color: rgb(243, 219, 121);
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(212, 158, 23) ;
+    color: #f3eed9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
